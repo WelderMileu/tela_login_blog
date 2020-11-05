@@ -192,14 +192,10 @@ button {
 
 /* hover  */
 
-.hover__opacity-8:hover {
+.sociais div:hover {
     opacity: .8;
-}
-
-.hover__scale-2:hover {
     transform: scale(1.2);
 }
-
 
 /* transição  */
 
@@ -234,8 +230,9 @@ button {
         width: 80%;
         background-color: #fff;
         z-index: 2000;
-        height: 80vh;
+        height: auto;
         border-radius: 10px;
+        padding: 10px;
     }
 
     .form h1 {
@@ -250,6 +247,10 @@ button {
 @media (max-width: 600px) {
     .form .sociais {
         margin-top: 15px;
+    }
+
+    .form div:nth-child(6) p {
+        font-size: 16px;
     }
 }
 
